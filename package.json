@@ -1,0 +1,42 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Solution of (Data Structures and Algorithms) leetcode Programs into JavaScript.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:file": "mocha",
+    "test:grep": "mocha --grep",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahilkr02/leetcode.git"
+  },
+  "keywords": [
+    "DSA",
+    "Leet",
+    "Code",
+    "JavaScript",
+    "DSA",
+    "with",
+    "JS"
+  ],
+  "author": "Sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahilkr02/leetcode/issues"
+  },
+  "homepage": "https://github.com/Sahilkr02/leetcode#readme",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7"
+  }
+}
